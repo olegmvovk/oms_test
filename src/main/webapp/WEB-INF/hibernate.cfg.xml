@@ -7,11 +7,10 @@
 		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
 		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
 		<!--<property name="hibernate.connection.url">jdbc:jtds:sqlserver://streamer2005.softserveinc.com/_055_OMS;instance=tc;</property>-->
-		<property name="hibernate.connection.url">jdbc:mysql://192.168.1.2/oms_db</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost/oms_db</property>
 		<property name="hibernate.connection.username">root</property>
 		<property name="hibernate.connection.password">tktrnhjysrf</property>
-
-<!-- <property name="hibernate.hbm2ddl.auto">create</property>-->
+	<!-- <property name="hibernate.hbm2ddl.auto">create</property> -->
 
 		<mapping class="com.softserveinc.edu.oms.domain.entities.Role" />
 		<mapping class="com.softserveinc.edu.oms.domain.entities.Region" />
